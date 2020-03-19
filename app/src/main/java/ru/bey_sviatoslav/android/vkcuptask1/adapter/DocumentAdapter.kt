@@ -16,7 +16,7 @@ import ru.bey_sviatoslav.android.vkcuptask1.extra.toDate
 import ru.bey_sviatoslav.android.vkcuptask1.models.VKDocument
 
 
-//Унаследуем наш класс DocumentAdapter от класса RecyclerView.Adapter
+//Унаследуем наш класс DocumentAdapter от класса RecyclerView.Adapter\\
 //Тут же указываем наш собственный ViewHolder, который предоставит нам доступ к view компонентам
 class DocumentAdapter(private val activity: MainActivity, private val documents : ArrayList<VKDocument>) : RecyclerView.Adapter<DocumentAdapter.ViewHolder>() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
